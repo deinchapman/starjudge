@@ -171,7 +171,7 @@ D- ...
     return conclusion
         
         
-def Cine_endings(NAME, FRIEND, result):
+def cine_endings(NAME, FRIEND, result):
     print(result)
     print(f"\nFelicidad por llegar hasta este punto {NAME}... Las estrellas juzgan tus acciones con {FRIEND}:\n")
     if result >= 99:
