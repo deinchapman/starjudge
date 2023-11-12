@@ -7,9 +7,9 @@ Just_failure = "Algo nos dice que deberías replantearte tus habilidades para so
 
         
 POINTS = 50
-A = 20
-B = 15
-C = -10
+GOOD_CHOICE = 20
+MEH_CHOICE = 15
+BAD_CHOICE = -10
 
 
     
@@ -70,17 +70,17 @@ D- ...
           """)
     while True:     
         if choice.upper() == "A":
-            conclusion += A 
+            conclusion += GOOD_CHOICE 
             print("Decidiste no tomarte la situación tan a pecho e hiciste que ambos se rieran de la situación")
             break     
         
         elif choice.upper() == "B":
-            conclusion += B 
+            conclusion += MEH_CHOICE 
             print("Pusiste una voz seductora y dijiste una frase picardía; \nUn comentario así te hizo ver cómo un payaso, pero la risas no faltaron...")
             break
             
         elif choice.upper() == "C":
-            conclusion += C 
+            conclusion += BAD_CHOICE  
             print("Sin duda alguna, actuar cómo si fueras el cabellero de la venganza te hace ver cool;\n ojalá se pueda decir lo mismo al interactuar directamente contigo...")
             break
         
@@ -107,17 +107,17 @@ D- ...
           """)
     while True:     
         if choice.upper() == "A":
-            conclusion += A 
+            conclusion += GOOD_CHOICE  
             print("Decidiste no tomarte la situación tan a pecho e hiciste que ambos se rieran de la situación")
             break     
         
         elif choice.upper() == "B":
-            conclusion += C 
+            conclusion += BAD_CHOICE  
             print("Pusiste una voz seductora y dijiste una frase picardía; \nUn comentario así te hizo ver cómo un payaso, pero la risas no faltaron...")
             break
             
         elif choice.upper() == "C":
-            conclusion += B 
+            conclusion += MEH_CHOICE  
             print("Sin duda alguna, actuar cómo si fueras el cabellero de la venganza te hace ver cool;\n ojalá se pueda decir lo mismo al interactuar directamente contigo...")
             break
         
@@ -144,17 +144,17 @@ D- ...
           """)
     while True:     
         if choice.upper() == "A":
-            conclusion += B 
+            conclusion += MEH_CHOICE  
             print("Decidiste no tomarte la situación tan a pecho e hiciste que ambos se rieran de la situación")
             break     
         
         elif choice.upper() == "B":
-            conclusion += A 
+            conclusion += GOOD_CHOICE  
             print("Pusiste una voz seductora y dijiste una frase picardía; \nUn comentario así te hizo ver cómo un payaso, pero la risas no faltaron...")
             break
             
         elif choice.upper() == "C":
-            conclusion += C 
+            conclusion += BAD_CHOICE  
             print("Sin duda alguna, actuar cómo si fueras el cabellero de la venganza te hace ver cool;\n ojalá se pueda decir lo mismo al interactuar directamente contigo...")
             break
         
