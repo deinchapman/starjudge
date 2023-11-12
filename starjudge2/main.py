@@ -58,7 +58,7 @@ def roots(text1, textC1, textC2, textC3):
 
 def cine(textC1, textC2, textC3, conclusion):
     print(textC1)
-    input("\npress enter continue\n")
+    input("\npresiona <enter> para continuar\n")
     #Opción de mejor a peor C1: A, B, C
     choice = input("""
 ¿Como vas a actuar durante este evento?
