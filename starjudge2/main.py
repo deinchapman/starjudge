@@ -271,7 +271,7 @@ def main():
     
     input("Press enter to continue")
     if path == 1:
-        Cine_endings(NAME, FRIEND, result)
+        cine_endings(NAME, FRIEND, result)
     
     
     endings(result)
