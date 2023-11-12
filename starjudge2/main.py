@@ -9,7 +9,7 @@ Just_failure = "Algo nos dice que deberías replantearte tus habilidades para so
 POINTS = 50
 A = 20
 B = 15
-C = -abs(10)
+C = -10
 
 
     
