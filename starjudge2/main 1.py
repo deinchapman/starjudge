@@ -89,7 +89,7 @@ def cine(textC1, textC2, textC3,FRIEND, conclusion):
     #Opción de mejor a peor C1: A, B, C
     while True:
         choice = input(f"""
-    Ahora mismo están en frente de la fila para comprar las entras a la película, {FRIEND} está de pie al lado tuyo, 
+    Ahora mismo están en frente de la fila para comprar las entradas a la película, {FRIEND} está de pie al lado tuyo, 
     esperando tu respuesta.                                              
     ¿Como vas a actuar durante este evento?
 
